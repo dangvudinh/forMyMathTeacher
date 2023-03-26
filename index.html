@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>entertain</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+  
+    <div id="snow">
+      <!--First button-->
+      <div id="first-button">
+        <div>
+          <button class="first-button" onmousedown="button1Clicked()">CẬU ĐANG BUỒN PHẢI KHÔNG?
+            <div class="hoverCat1">
+              <img id="cuteCat1" src="./asset/cuteCat1.png" alt="cuteCat1" width="200px">
+              <img id="bubble1" src="./asset/bubble1.png" alt="bubble1" width="200px">
+            </div>
+          </button> 
+      </div>
+      <!--second button-->  
+      <div id="second-button">
+        <button class="second-button">Viết điều cậu lo lắng vào đây đi....</button>
+        <img src="./asset/catPoint1.png" alt="" class="cat-point1" width="200px">
+        <div class="writeHere">write here</div> 
+        <img src="./asset/catPoint2.png" alt="" class="cat-point2" width="200px">
+        <div class="writeHere">write here</div>    
+        <input type="text" value="" class="inputText" onclick="myFunction2()">
+
+        <marquee class="ridingBikeRabbit" behavior="scroll" direction="right" width="100%" scrollamount="30">  
+          <img src="./asset/ridingBikeRabbit.png" alt="" width="70px">
+        </marquee>
+
+        <marquee class="pikachu" behavior="scroll" direction="left" width="100%" scrollamount="10">  
+          <img src="./asset/pikachu.png" alt="" width="200px">
+        </marquee>
+      </div>
+      <!--third button-->
+      <div id="third-button">
+          <div id="third-button1">
+          <div class="processing"></div>
+          <div class="speed">PROCESSING...</div>
+        </div>
+
+        <div id="third-button2">
+          <div class="processing"></div>
+          <div class="speed">DONE!</div>
+          <button class="done" onmousedown="myFunction3()">Xong rùi đó, nỗi buồn của cậu được tớ mang đi rồi:>>></button>       
+        </div>
+      </div>
+    
+      <div id="fourth-button">
+        <img src="./asset/cuteCat2.png" alt="" class="cuteCat2" width="300px">
+        <div class="wishes w1">Hãy cứ vui vẻ và lạc quan lên,</div>
+        <div class="wishes w2">mọi điều tốt đẹp đang chờ đón cậu ở phía trước!</div>
+      </div>
+    </div>
+
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
