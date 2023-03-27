@@ -1,9 +1,6 @@
 body {
     background: linear-gradient(to left,lightBlue,rgb(218, 235, 241));
-
   }
-
-  
   #snow{
       background: none;
       font-family: Androgyne;
@@ -212,14 +209,14 @@ body {
 
 #second-button .cat-point1 {
   position: absolute;
-  top: 175px;
-  left: 420px;
+  top: 29%;
+  left: 33%;
   animation: lightSpeedInLeft 1s, oscillation 2s 2s infinite;
 }
 #second-button .cat-point2 {
   position: absolute;
-  top: 175px;
-  left: 660px;
+  top: 29%;
+  left: 51%;
   animation: lightSpeedInRight 1s, oscillation 2s 2s infinite;
 }
 
